@@ -1,0 +1,12 @@
+.hidden {
+  display: none;
+}
+
+.clickable {
+  color: red;
+  cursor: pointer;
+}
+
+.clickable:hover {
+  font-weight: bold;
+}
