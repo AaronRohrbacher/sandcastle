@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function(){
   $("button#white").click(function() {
     $("body").removeClass();
     $("body").addClass("whiteBackground");
@@ -7,7 +7,8 @@ $(document).ready(function() {
     $("body").removeClass();
     $("body").addClass("blackBackground");
   });
+
   $(".clickable").click(function() {
-    $(".hidden").toggle();
+    $(".hidden2").toggle();
   });
 });
