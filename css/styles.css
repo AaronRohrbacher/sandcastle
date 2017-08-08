@@ -10,3 +10,14 @@
 .clickable:hover {
   font-weight: bold;
 }
+.whiteBackground {
+  background-color: white;
+}
+.blackBackground {
+  background-color:black;
+  color: white;
+}
+
+body {
+  background-color: green;
+}
